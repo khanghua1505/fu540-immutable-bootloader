@@ -1,0 +1,2 @@
+/usr/local/riscv/bin/riscv64-unknown-elf-ar qc libux00boot.a  CMakeFiles/ux00boot.dir/ux00boot.c.obj
+/usr/local/riscv/bin/riscv64-unknown-elf-ranlib libux00boot.a

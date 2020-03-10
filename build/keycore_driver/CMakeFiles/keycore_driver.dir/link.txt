@@ -1,0 +1,2 @@
+/usr/local/riscv/bin/riscv64-unknown-elf-ar qc libkeycore_driver.a  CMakeFiles/keycore_driver.dir/interfaces/ethernet/keycore_ether.c.obj CMakeFiles/keycore_driver.dir/interfaces/ethernet/socket.c.obj CMakeFiles/keycore_driver.dir/interfaces/ethernet/w5500.c.obj CMakeFiles/keycore_driver.dir/interfaces/ethernet/wizchip_conf.c.obj CMakeFiles/keycore_driver.dir/src/keycore.c.obj
+/usr/local/riscv/bin/riscv64-unknown-elf-ranlib libkeycore_driver.a

@@ -1,0 +1,2 @@
+/usr/local/riscv/bin/riscv64-unknown-elf-ar qc libfu540_drivers.a  CMakeFiles/fu540_drivers.dir/clkutils/clkutils.c.obj CMakeFiles/fu540_drivers.dir/ememoryotp/ememoryotp.c.obj CMakeFiles/fu540_drivers.dir/fdt/fdt.c.obj CMakeFiles/fu540_drivers.dir/gpio/gpio.c.obj CMakeFiles/fu540_drivers.dir/gpt/gpt.c.obj CMakeFiles/fu540_drivers.dir/sd/sd.c.obj CMakeFiles/fu540_drivers.dir/spi/spi.c.obj CMakeFiles/fu540_drivers.dir/uart/uart.c.obj
+/usr/local/riscv/bin/riscv64-unknown-elf-ranlib libfu540_drivers.a

@@ -1,0 +1,3 @@
+const char *gitid = "${GIT_ID}";
+const char *gitdate = ${GIT_DATE};
+const char *gitversion = ${GIT_VERSION};

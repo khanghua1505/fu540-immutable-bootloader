@@ -1,0 +1,12 @@
+/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/rebuild_cache.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/fu540-fsbl.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/edit_cache.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/drivers/CMakeFiles/rebuild_cache.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/drivers/CMakeFiles/fu540_drivers.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/drivers/CMakeFiles/edit_cache.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver/CMakeFiles/rebuild_cache.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver/CMakeFiles/keycore_driver.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver/CMakeFiles/edit_cache.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/ux00boot/CMakeFiles/rebuild_cache.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/ux00boot/CMakeFiles/ux00boot.dir
+/home/bored/Desktop/fu540-immutable_bootloader/build/ux00boot/CMakeFiles/edit_cache.dir
