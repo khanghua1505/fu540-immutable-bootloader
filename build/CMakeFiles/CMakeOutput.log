@@ -16,14 +16,14 @@ The C compiler identification is GNU, found in "/home/bored/Desktop/fu540-immuta
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43fc8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43fc8.dir/build.make CMakeFiles/cmTC_43fc8.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_75f79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_75f79.dir/build.make CMakeFiles/cmTC_75f79.dir/build
 make[1]: Entering directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -o CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_43fc8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43fc8.dir/link.txt --verbose=1
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles -v CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj  -o cmTC_43fc8 
+Building C object CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -o CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_75f79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f79.dir/link.txt --verbose=1
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles -v CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj  -o cmTC_75f79 
 Using built-in specs.
 COLLECT_GCC=/usr/local/riscv/bin/riscv64-unknown-elf-gcc
 COLLECT_LTO_WRAPPER=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/lto-wrapper
@@ -33,10 +33,10 @@ Thread model: single
 gcc version 7.2.0 (GCC) 
 COMPILER_PATH=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/:/usr/local/riscv/bin/../libexec/gcc/:/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/
 LIBRARY_PATH=/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/:/usr/local/riscv/bin/../lib/gcc/:/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/:/usr/local/riscv/bin/../riscv64-unknown-elf/lib/
-COLLECT_GCC_OPTIONS='-I' '.' '-I' 'lib/' '-O2' '-ggdb' '-march=rv64imafdc' '-mabi=lp64d' '-Wall' '-mcmodel=medany' '-mexplicit-relocs' '-nostdlib' '-nostartfiles' '-v' '-o' 'cmTC_43fc8'
- /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/collect2 -plugin /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/liblto_plugin.so -plugin-opt=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8IvnkK.res --sysroot=/usr/local/riscv/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_43fc8 -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0 -L/usr/local/riscv/bin/../lib/gcc -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib -L/usr/local/riscv/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj
+COLLECT_GCC_OPTIONS='-I' '.' '-I' 'lib/' '-O2' '-ggdb' '-march=rv64imafdc' '-mabi=lp64d' '-Wall' '-mcmodel=medany' '-mexplicit-relocs' '-nostdlib' '-nostartfiles' '-v' '-o' 'cmTC_75f79'
+ /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/collect2 -plugin /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/liblto_plugin.so -plugin-opt=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckJygjl.res --sysroot=/usr/local/riscv/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_75f79 -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0 -L/usr/local/riscv/bin/../lib/gcc -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib -L/usr/local/riscv/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj
 /usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000010078
-COLLECT_GCC_OPTIONS='-I' '.' '-I' 'lib/' '-O2' '-ggdb' '-march=rv64imafdc' '-mabi=lp64d' '-Wall' '-mcmodel=medany' '-mexplicit-relocs' '-nostdlib' '-nostartfiles' '-v' '-o' 'cmTC_43fc8'
+COLLECT_GCC_OPTIONS='-I' '.' '-I' 'lib/' '-O2' '-ggdb' '-march=rv64imafdc' '-mabi=lp64d' '-Wall' '-mcmodel=medany' '-mexplicit-relocs' '-nostdlib' '-nostartfiles' '-v' '-o' 'cmTC_75f79'
 make[1]: Leaving directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
 
 
@@ -44,14 +44,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_43fc8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_43fc8.dir/build.make CMakeFiles/cmTC_43fc8.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_75f79/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_75f79.dir/build.make CMakeFiles/cmTC_75f79.dir/build]
   ignore line: [make[1]: Entering directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -o CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_43fc8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43fc8.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles -v CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj  -o cmTC_43fc8 ]
+  ignore line: [Building C object CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -o CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_75f79]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f79.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles -v CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj  -o cmTC_75f79 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/local/riscv/bin/riscv64-unknown-elf-gcc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/lto-wrapper]
@@ -61,22 +61,22 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/:/usr/local/riscv/bin/../libexec/gcc/:/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/]
   ignore line: [LIBRARY_PATH=/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/:/usr/local/riscv/bin/../lib/gcc/:/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/:/usr/local/riscv/bin/../riscv64-unknown-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-I' '.' '-I' 'lib/' '-O2' '-ggdb' '-march=rv64imafdc' '-mabi=lp64d' '-Wall' '-mcmodel=medany' '-mexplicit-relocs' '-nostdlib' '-nostartfiles' '-v' '-o' 'cmTC_43fc8']
-  link line: [ /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/collect2 -plugin /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/liblto_plugin.so -plugin-opt=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8IvnkK.res --sysroot=/usr/local/riscv/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_43fc8 -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0 -L/usr/local/riscv/bin/../lib/gcc -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib -L/usr/local/riscv/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '.' '-I' 'lib/' '-O2' '-ggdb' '-march=rv64imafdc' '-mabi=lp64d' '-Wall' '-mcmodel=medany' '-mexplicit-relocs' '-nostdlib' '-nostartfiles' '-v' '-o' 'cmTC_75f79']
+  link line: [ /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/collect2 -plugin /usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/liblto_plugin.so -plugin-opt=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckJygjl.res --sysroot=/usr/local/riscv/bin/../riscv64-unknown-elf -melf64lriscv -o cmTC_75f79 -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0 -L/usr/local/riscv/bin/../lib/gcc -L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib -L/usr/local/riscv/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj]
     arg [/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/local/riscv/bin/../libexec/gcc/riscv64-unknown-elf/7.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc8IvnkK.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckJygjl.res] ==> ignore
     arg [--sysroot=/usr/local/riscv/bin/../riscv64-unknown-elf] ==> ignore
     arg [-melf64lriscv] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_43fc8] ==> ignore
+    arg [cmTC_75f79] ==> ignore
     arg [-L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0] ==> dir [/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0]
     arg [-L/usr/local/riscv/bin/../lib/gcc] ==> dir [/usr/local/riscv/bin/../lib/gcc]
     arg [-L/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib]
     arg [-L/usr/local/riscv/bin/../riscv64-unknown-elf/lib] ==> dir [/usr/local/riscv/bin/../riscv64-unknown-elf/lib]
-    arg [CMakeFiles/cmTC_43fc8.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_75f79.dir/CMakeCCompilerABI.c.obj] ==> ignore
   collapse library dir [/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0] ==> [/usr/local/riscv/lib/gcc/riscv64-unknown-elf/7.2.0]
   collapse library dir [/usr/local/riscv/bin/../lib/gcc] ==> [/usr/local/riscv/lib/gcc]
   collapse library dir [/usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib] ==> [/usr/local/riscv/riscv64-unknown-elf/lib]
@@ -91,14 +91,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3f9d1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3f9d1.dir/build.make CMakeFiles/cmTC_3f9d1.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_85004/fast"
+/usr/bin/make -f CMakeFiles/cmTC_85004.dir/build.make CMakeFiles/cmTC_85004.dir/build
 make[1]: Entering directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3f9d1.dir/feature_tests.c.obj
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -std=c11 -o CMakeFiles/cmTC_3f9d1.dir/feature_tests.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_3f9d1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f9d1.dir/link.txt --verbose=1
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles  CMakeFiles/cmTC_3f9d1.dir/feature_tests.c.obj  -o cmTC_3f9d1 
+Building C object CMakeFiles/cmTC_85004.dir/feature_tests.c.obj
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -std=c11 -o CMakeFiles/cmTC_85004.dir/feature_tests.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_85004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85004.dir/link.txt --verbose=1
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles  CMakeFiles/cmTC_85004.dir/feature_tests.c.obj  -o cmTC_85004 
 /usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000010078
 make[1]: Leaving directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
 
@@ -112,14 +112,14 @@ make[1]: Leaving directory '/home/bored/Desktop/fu540-immutable_bootloader/build
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bb951/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bb951.dir/build.make CMakeFiles/cmTC_bb951.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_46d2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46d2e.dir/build.make CMakeFiles/cmTC_46d2e.dir/build
 make[1]: Entering directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bb951.dir/feature_tests.c.obj
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -std=c99 -o CMakeFiles/cmTC_bb951.dir/feature_tests.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bb951
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb951.dir/link.txt --verbose=1
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles  CMakeFiles/cmTC_bb951.dir/feature_tests.c.obj  -o cmTC_bb951 
+Building C object CMakeFiles/cmTC_46d2e.dir/feature_tests.c.obj
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -std=c99 -o CMakeFiles/cmTC_46d2e.dir/feature_tests.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_46d2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46d2e.dir/link.txt --verbose=1
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles  CMakeFiles/cmTC_46d2e.dir/feature_tests.c.obj  -o cmTC_46d2e 
 /usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000010078
 make[1]: Leaving directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
 
@@ -133,14 +133,14 @@ make[1]: Leaving directory '/home/bored/Desktop/fu540-immutable_bootloader/build
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2de81/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2de81.dir/build.make CMakeFiles/cmTC_2de81.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_72e73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72e73.dir/build.make CMakeFiles/cmTC_72e73.dir/build
 make[1]: Entering directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2de81.dir/feature_tests.c.obj
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -std=c90 -o CMakeFiles/cmTC_2de81.dir/feature_tests.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2de81
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2de81.dir/link.txt --verbose=1
-/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles  CMakeFiles/cmTC_2de81.dir/feature_tests.c.obj  -o cmTC_2de81 
+Building C object CMakeFiles/cmTC_72e73.dir/feature_tests.c.obj
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc   -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs     -std=c90 -o CMakeFiles/cmTC_72e73.dir/feature_tests.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_72e73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72e73.dir/link.txt --verbose=1
+/usr/local/riscv/bin/riscv64-unknown-elf-gcc -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -nostdlib -nostartfiles  CMakeFiles/cmTC_72e73.dir/feature_tests.c.obj  -o cmTC_72e73 
 /usr/local/riscv/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000010078
 make[1]: Leaving directory '/home/bored/Desktop/fu540-immutable_bootloader/build/CMakeFiles/CMakeTmp'
 

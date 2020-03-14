@@ -1,0 +1,97 @@
+[
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540-fsbl.dir/fsbl/version.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/fsbl/version.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/fsbl/version.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540-fsbl.dir/fsbl/main.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/fsbl/main.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/fsbl/main.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540-fsbl.dir/lib/memcpy.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/lib/memcpy.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/lib/memcpy.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540-fsbl.dir/lib/strcpy.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/lib/strcpy.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/lib/strcpy.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540-fsbl.dir/lib/strlen.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/lib/strlen.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/lib/strlen.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/clkutils/clkutils.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/clkutils/clkutils.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/clkutils/clkutils.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/ememoryotp/ememoryotp.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/ememoryotp/ememoryotp.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/ememoryotp/ememoryotp.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/fdt/fdt.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/fdt/fdt.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/fdt/fdt.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/gpio/gpio.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/gpio/gpio.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/gpio/gpio.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/gpt/gpt.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/gpt/gpt.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/gpt/gpt.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/sd/sd.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/sd/sd.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/sd/sd.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/spi/spi.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/spi/spi.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/spi/spi.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/drivers",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/fu540_drivers.dir/uart/uart.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/drivers/uart/uart.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/drivers/uart/uart.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DCONFIG_KEYCORE_INTERFACE_ETHERNET -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include/keycore_driver -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/keycore_driver.dir/interfaces/ethernet/keycore_ether.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/keycore_ether.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/keycore_ether.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DCONFIG_KEYCORE_INTERFACE_ETHERNET -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include/keycore_driver -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/keycore_driver.dir/interfaces/ethernet/socket.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/socket.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/socket.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DCONFIG_KEYCORE_INTERFACE_ETHERNET -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include/keycore_driver -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/keycore_driver.dir/interfaces/ethernet/w5500.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/w5500.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/w5500.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DCONFIG_KEYCORE_INTERFACE_ETHERNET -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include/keycore_driver -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/keycore_driver.dir/interfaces/ethernet/wizchip_conf.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/wizchip_conf.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet/wizchip_conf.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/keycore_driver",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DCONFIG_KEYCORE_INTERFACE_ETHERNET -DDEBUG=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/interfaces/ethernet -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include/keycore_driver -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/keycore_driver.dir/src/keycore.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/src/keycore.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/src/keycore.c"
+},
+{
+  "directory": "/home/bored/Desktop/fu540-immutable_bootloader/build/ux00boot",
+  "command": "/usr/local/riscv/bin/riscv64-unknown-elf-gcc -DDEBUG=1 -DUX00BOOT_BOOT_STAGE=1 -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers  -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs    -o CMakeFiles/ux00boot.dir/ux00boot.c.obj   -c /home/bored/Desktop/fu540-immutable_bootloader/ux00boot/ux00boot.c",
+  "file": "/home/bored/Desktop/fu540-immutable_bootloader/ux00boot/ux00boot.c"
+}
+]

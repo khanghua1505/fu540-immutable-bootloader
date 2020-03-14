@@ -3,13 +3,13 @@
 
 # compile ASM with /usr/local/riscv/bin/riscv64-unknown-elf-gcc
 # compile C with /usr/local/riscv/bin/riscv64-unknown-elf-gcc
-ASM_FLAGS = -I. -mcmodel=medany -mexplicit-relocs -g  
+ASM_FLAGS = -I. -mcmodel=medany -mexplicit-relocs  
 
 ASM_DEFINES = -DDEBUG=1
 
 ASM_INCLUDES = -I/home/bored/Desktop/fu540-immutable_bootloader -I/home/bored/Desktop/fu540-immutable_bootloader/drivers -I/home/bored/Desktop/fu540-immutable_bootloader/keycore_driver/include 
 
-C_FLAGS = -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs  -g  
+C_FLAGS = -I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs   
 
 C_DEFINES = -DDEBUG=1
 

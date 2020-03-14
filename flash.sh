@@ -36,5 +36,5 @@ echo "Copy done"
 echo "COPYING FSBL to $PART_FSBL"
 test -b $PART_FSBL
 $MKE2FS -t ext3 $PART_FSBL
-dd if=fsbl.bin of=$PART_FSBL bs=1024
+dd if=fu540-fsbl.bin of=$PART_FSBL bs=1024
 echo "Copy done"

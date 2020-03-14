@@ -68,9 +68,6 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/local/riscv/bin/riscv64-unknown-elf-gcc-ar
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/local/riscv/bin/riscv64-unknown-elf-gcc-ranlib
 
 //NoDesc
-CMAKE_C_COMPILER_WORKS:STRING=1
-
-//NoDesc
 CMAKE_C_FLAGS:STRING='-I. -Ilib/ -O2 -ggdb -march=rv64imafdc -mabi=lp64d -Wall -mcmodel=medany -mexplicit-relocs '
 
 //Flags used by the compiler during debug builds.
@@ -102,7 +99,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=1
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local

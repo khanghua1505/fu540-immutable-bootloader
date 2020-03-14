@@ -427,8 +427,6 @@ int main(int id, unsigned long dtb)
   puts("\r\n\n");
   
   secure_boot_main();
-  
-  for (;;) {}
    
   slave_main(0, dtb);
 
@@ -507,13 +505,6 @@ void secure_boot_main()
     error_handler(__FILE__, __LINE__);
   }
   puts(" OK");
-  
-  puts("\r\nKEYCORE: Read security monitor authentication");
-  code = keycore_get_devauth(&keycore, &auth);
-  if (code != KEYCORE_OK) {
-    puts("\r\nERROR: Keycore connects failed. Please check connection.");
-    error_handler(__FILE__, __LINE__);
-  }
 }
 
 void error_handler(const char* FILE, long line)
